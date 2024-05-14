@@ -1,0 +1,462 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(11, 38, 73);
+    
+  
+}
+
+
+#foto img{
+    height: 185px;
+    position: absolute;
+    right: 70px;
+    margin: 2%;
+
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 240px;
+    box-shadow: 3px 3px 3px; color: #ffffff;
+    padding: 15px;
+    background-color: rgb(11, 38, 73);
+
+}
+
+
+.menu h2{
+    color: #f3971e;
+    font-size: 22pt;
+    text-shadow: 2px 2px 3px #000000;
+    padding: 50px;
+    
+
+    
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    padding: 12px;
+    margin: 16px;
+}
+
+nav li a:hover{
+    background-color: #f3971e;
+
+}
+
+.dropdown-menu{
+    position: absolute;
+    background-color: rgb(11, 38, 73);
+    display: none;
+    width: 180px;
+    
+}
+
+.dropdown-menu a{
+    display: block;
+
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 700px;
+    background: url(oficial3.jpg) no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#icone{
+
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    height: 3cm;
+    padding-bottom: 2cm;
+    background-color: #ffffff;
+    
+
+    
+}
+
+
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(11, 38, 73);
+
+}
+
+
+
+#SOBRENOS h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    margin-bottom: 0.50cm;
+    background-color: rgb(11, 38, 73);
+    
+    
+
+}
+
+
+
+
+.conteudo p{
+    font-size: 14pt;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1cm;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+#conteudo p_titulo{
+    font-size: 23pt;
+    color: #f3971e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+#SOBRENOS img{
+    height: 475px;
+    margin-bottom: 1cm;
+    padding: 50px;
+    border-radius: 2.50cm;
+
+}
+
+
+#NOSSOSVALORES h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    background-color: rgb(11, 38, 73);
+   
+    
+
+}
+
+#NOSSOSVALORES video{
+    height: 457px;
+    margin-bottom: 2cm;
+    padding: 50px;
+    background-color: rgb(11, 38, 73);
+    border-radius: 2.50cm;
+    
+    
+
+}
+
+.lista{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(11, 38, 73);
+    
+    
+}
+
+#lista ul{
+    font-size: 14pt;
+    text-align: left;
+    margin-bottom: 60px;
+    line-height: 2.15;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+#pontos p_lista{
+    font-size: 16pt;
+    color: #ff9100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#MARCAS h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    margin-bottom: 2cm;
+    
+}
+
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 4vw;
+    padding: 0.6vw;
+    margin-bottom: 6cm;
+
+}
+
+.gallery-items{
+    width: 200px;
+    height: 180px;
+    flex-grow: 1;
+    transition: transform 1s linear;
+
+}
+
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.gallery-items:hover{
+    transform: scale(1.05);
+    
+}
+
+
+#FALECONOSCO h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    margin-bottom: 2cm;
+
+}
+
+#FALECONOSCO img{
+    height: 350px;
+    width: 520px;
+    position: absolute;
+    right: 120px;
+    
+    
+    
+    
+}
+
+#FALECONOSCO{
+    
+    background: url(banner61.jpg) no-repeat; width: 100%; margin-bottom: 2cm;
+    justify-content: center;
+    padding: 50px;
+   
+}
+
+
+
+
+#ENTREGAS h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    margin-bottom: 1cm;
+}
+
+
+#ENTREGAS video{
+    height: 480px;
+    margin-bottom: 1cm;
+    padding: 60px;
+    border-radius: 2.50cm;
+
+}
+
+
+.entregas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(11, 38, 73);
+    
+}
+
+
+#entregas p_titulo{
+    font-size: 23pt;
+    color: #f3971e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#entregas p{
+    font-size: 14pt;
+    margin-bottom: 16px;
+    line-height: 1cm;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+#btnTop{
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: none;
+    border-radius: 100%;
+    display: none;
+
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 4vw;
+    padding: 0.6vw;
+    margin-bottom: 4cm;
+
+}
+
+.gallery-items1{
+    width: 250px;
+    height: 250px;
+    flex-grow: 1;
+    transition: transform 1s linear;
+
+}
+
+.gallery-items1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.gallery-items1:hover{
+    transform: scale(1.05);
+    
+}
+
+footer{
+    background-color: white;
+    padding: 10px 0;
+    
+    
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+    
+    
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-col{
+    width: 30%;
+    padding: 0 80px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #ff9100;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li{
+    margin: 15px 0;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.5s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-col ul li a:hover{
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    
+}
+
+#rodape{
+    padding: 1%;
+    background-color: rgb(11, 38, 73);
+    
+  
+}
+
+#rodape p{
+    color: #ffffff;
+    text-align: center;
+    
+    
+}
+
+
