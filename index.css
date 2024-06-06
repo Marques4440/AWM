@@ -464,59 +464,53 @@ footer{
 
     .menu{
         width: 100%;
-        height: 155px;
-        padding: 15px;
+        height: 110px;
+        padding: 10px;
         background-color: rgb(11, 38, 73);
     }
 
     #foto img{
-        height: 100px;
+        height: 90px;
         position: absolute;
-        right: 1%;
-        margin: 5%;
+        right: 2%;
+        
     
     }
 
     .menu h2{
         color: #f3971e;
-        font-size: 13pt;
+        font-size: 11pt;
         text-shadow: 2px 2px 3px #000000;
-        padding: 20px;
+        padding: 28px;
         
             
     }
 
+
+
     .banner{
-        width: 101%;
-        height: 155px;
+        width: 100%;
+        height: 160px;
         background: url(oficial3.jpg) no-repeat;
         display: flex;
         align-items: flex-end;
         justify-content: center;
         padding: 10px;
-        margin-bottom: 3cm;
+        
     }
 
     nav li{
         display: flex;
     }
 
-    nav li a{
-        display: inline-block;
-        color: white;
-        text-shadow: 2px 2px 2px black;
-        text-decoration: none;
-        padding: 10px;
-        margin: 10px;
-       
-    }
+
 
     #icone{
 
         justify-content: center;
         padding: 5px;
         display: flex;
-        height: 3cm;
+        height: 2.2cm;
         padding-bottom: 0.10cm;
         background-color: #ffffff;
         
@@ -528,12 +522,308 @@ footer{
     nav li a{
     display: inline-block;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-decoration: none;
-    padding: 5px;
+    padding: 0px;
     margin: 5px;
-    font-size: 10pt;
+    font-size: 9pt;
+    margin-top: 0.4cm;
 }
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: contents;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(11, 38, 73);
+
+}
+
+
+#SOBRENOS h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 0cm;
+    background-color: rgb(11, 38, 73);
+    
+    
+
+}
+
+.conteudo p{
+    font-size: 10pt;
+    text-align: left;
+    margin-bottom: 0cm;
+    line-height: 0.5cm;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+
+
+}
+
+#conteudo p_titulo{
+    font-size: 12pt;
+    color: #f3971e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    
+}
+
+#SOBRENOS img{
+    height: 200px;
+    margin-bottom: 0cm;
+    padding: 18px;
+    border-radius: 0.95cm;
+    position: relative;
+    
+
+}
+
+#NOSSOSVALORES h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-bottom: 0cm;
+    background-color: rgb(11, 38, 73);
+   
+    
+
+}
+
+#NOSSOSVALORES video{
+    height: 188px;
+    margin-bottom: 0cm;
+    padding: 18px;
+    background-color: rgb(11, 38, 73);
+    border-radius: 0.95cm;
+    
+    
+
+}
+
+.lista{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(11, 38, 73);
+    
+    
+    
+}
+
+#lista ul{
+    font-size: 10pt;
+    text-align: left;
+    margin-bottom: 0cm;
+    line-height: 0.5cm;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    
+
+}
+
+#pontos p_lista{
+    font-size: 12pt;
+    color: #ff9100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1cm;
+    
+}
+
+#MARCAS h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-bottom: 0cm;
+    background-color: rgb(11, 38, 73);
+    text-align: center;
+}
+
+
+
+.gallery-items{
+    width: 60px;
+    height: 60px;
+    flex-grow: 1;
+    transition: transform 1s linear;
+
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 4vw;
+    padding: 0.6vw;
+    margin-bottom: 0cm;
+
+}
+
+#ENTREGAS h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-bottom: 0cm;
+    background-color: rgb(11, 38, 73);
+    
+}
+
+#ENTREGAS video{
+    height: 188px;
+    margin-bottom: 0cm;
+    padding: 20px;
+    border-radius: 1.05cm;
+
+}
+
+.entregas{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(11, 38, 73);
+    text-align: center;
+    
+}
+
+#entregas p_titulo{
+    font-size: 12pt;
+    color: #f3971e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#entregas p{
+    font-size: 10pt;
+    margin-bottom: 0cm;
+    line-height: 0.52cm;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    
+
+}
+
+#FALECONOSCO h2{
+    color: #f3971e;
+    text-shadow: 3px 2px 2px black;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-bottom: 0cm;
+    
+
+}
+
+#FALECONOSCO iframe{
+    width: 100px;
+    height: 80px;
+    
+
+
+
+}
+
+#FALECONOSCO img{
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    right: 40px;
+      
+}
+
+#FALECONOSCO{
+    
+    background: url(banner61.jpg) no-repeat; width: 100%; margin-bottom: 1cm;
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+.footer-col{
+    width: 100%;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.footer-col h4{
+    font-size: 12px;
+    color: #ff9100;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.footer-col ul li a{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.5s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-col ul li{
+    margin: 5px 0;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 10%;
+    margin: auto;
+    
+    
+}
+
+#btnTop{
+    position: fixed;
+    bottom: 50px;
+    right: 24px;
+    height: 30px;
+    width: 10px;
+    background: white;
+    border: none;
+    border-radius: 100cm;
+    display: none;
+
+}
+
+#btnTop img{
+    height: 30px;
+}
+
+.gallery-items1{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
+    transition: transform 1s linear;
+
+}
+
+
 
 
     
