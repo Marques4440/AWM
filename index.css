@@ -34,7 +34,7 @@ body{
 
 
 .menu h2{
-    color: #f3971e;
+    color: #ff9100;
     font-size: 22pt;
     text-shadow: 2px 2px 3px #000000;
     padding: 50px;
@@ -123,7 +123,7 @@ nav li a:hover{
 
 
 #SOBRENOS h2{
-    color: #f3971e;
+    color: #ff9100;
     text-shadow: 3px 2px 2px black;
     font-size: 25pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -167,7 +167,7 @@ nav li a:hover{
 
 
 #NOSSOSVALORES h2{
-    color: #f3971e;
+    color: #ff9100;
     text-shadow: 3px 2px 2px black;
     font-size: 25pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -213,13 +213,13 @@ nav li a:hover{
 
 #pontos p_lista{
     font-size: 16pt;
-    color: #ff9100;
+    color: #f3971e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 #MARCAS h2{
-    color: #f3971e;
+    color: #ff9100;
     text-shadow: 3px 2px 2px black;
     font-size: 25pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -261,7 +261,7 @@ nav li a:hover{
 
 
 #FALECONOSCO h2{
-    color: #f3971e;
+    color: #ff9100;
     text-shadow: 3px 2px 2px black;
     font-size: 25pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -293,7 +293,7 @@ nav li a:hover{
 
 
 #ENTREGAS h2{
-    color: #f3971e;
+    color: #ff9100;
     text-shadow: 3px 2px 2px black;
     font-size: 25pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -324,7 +324,7 @@ nav li a:hover{
 
 #entregas p_titulo{
     font-size: 23pt;
-    color: #f3971e;
+    color: #ff9100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -482,6 +482,7 @@ footer{
         font-size: 11pt;
         text-shadow: 2px 2px 3px #000000;
         padding: 28px;
+        margin-top: 0.25cm;
         
             
     }
@@ -497,8 +498,8 @@ footer{
         justify-content: center;
         padding: 10px;
         
+        
     }
-
 
 
 
@@ -526,8 +527,9 @@ footer{
     text-decoration: none;
     padding: 6px;
     margin: 5px;
-    font-size: 9pt;
+    font-size: 8pt;
     margin-top: 0.6cm;
+    
     
     
     
@@ -541,6 +543,7 @@ footer{
     align-items: center;
     padding: 20px;
     background-color: rgb(11, 38, 73);
+    
 
 }
 
@@ -553,6 +556,7 @@ footer{
     padding: 20px;
     margin-bottom: 0cm;
     background-color: rgb(11, 38, 73);
+    text-align: center;
     
     
 
@@ -595,6 +599,7 @@ footer{
     padding: 15px;
     margin-bottom: 0cm;
     background-color: rgb(11, 38, 73);
+    text-align: center;
    
     
 
@@ -618,6 +623,7 @@ footer{
     align-items: center;
     padding: 0px;
     background-color: rgb(11, 38, 73);
+    text-align: center;
     
     
     
@@ -632,6 +638,7 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     
+    
 
 }
 
@@ -640,6 +647,7 @@ footer{
     color: #f3971e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1cm;
+    
     
 }
 
@@ -746,8 +754,8 @@ footer{
 }
 
 #FALECONOSCO img{
-    height: 255px;
-    width: 215px;
+    height: 285px;
+    width: 250px;
     right: 55px;
     padding-bottom: 70px;   
     
@@ -839,11 +847,13 @@ footer{
 
 .dropdown-menu a{
     display: block;
+    
 
 }
 
 .dropdown:hover .dropdown-menu{
     display: block;
+    
 
 }
 
@@ -851,6 +861,8 @@ nav li a:hover{
     background-color: rgb(11, 38, 73);
 
 }
+
+
 
 
     
