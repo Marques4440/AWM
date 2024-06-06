@@ -490,7 +490,7 @@ footer{
 
     .banner{
         width: 100%;
-        height: 80px;
+        height: 100px;
         background: #ff9100;
         display: flex;
         align-items: flex-end;
@@ -524,8 +524,8 @@ footer{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
     text-decoration: none;
-    padding: 0px;
-    margin: 10px;
+    padding: 6px;
+    margin: 5px;
     font-size: 9pt;
     margin-top: 0.6cm;
     
@@ -731,7 +731,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin-bottom: 0.50cm;
-    text-align: center;
+    
 
 }
 
@@ -746,9 +746,9 @@ footer{
 }
 
 #FALECONOSCO img{
-    height: 170px;
-    width: 170px;
-    right: 76px;
+    height: 255px;
+    width: 215px;
+    right: 55px;
     padding-bottom: 70px;   
     
       
@@ -757,6 +757,7 @@ footer{
 #FALECONOSCO{
     
     background: url(banner61.jpg) no-repeat; width: 100%; margin-bottom: 0.50cm;
+    height: 300px;
     justify-content: center;
     padding: 27px;
    
@@ -829,10 +830,11 @@ footer{
 
 .dropdown-menu{
     position: absolute;
-    background-color: rgb(11, 38, 73);
+    background-color: #ff9100;
     display: none;
     width: 180px;
     
+
 }
 
 .dropdown-menu a{
@@ -845,6 +847,10 @@ footer{
 
 }
 
+nav li a:hover{
+    background-color: rgb(11, 38, 73);
+
+}
 
 
     
